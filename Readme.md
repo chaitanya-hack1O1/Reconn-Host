@@ -27,5 +27,5 @@ Before running the script, ensure you have the following tools installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/bulk-recon-automation.git
-   cd bulk-recon-automation
+   https://github.com/chaitanya-hack1O1/Reconn-Host.git
+   cd Reconn-Host
