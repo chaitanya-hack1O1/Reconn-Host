@@ -1,8 +1,8 @@
-# Bulk Recon Automation Script
+# Recon Automation Script
 
 ## Overview
 
-The **Bulk Recon Automation Script** is a streamlined tool designed for performing comprehensive reconnaissance on multiple domains. It automates various tasks such as subdomain enumeration, live host probing, directory brute-force attacks, hidden endpoint extraction, and vulnerability scanning.
+The **Recon Automation Script** is a streamlined tool designed for performing comprehensive reconnaissance on multiple domains. It automates various tasks such as subdomain enumeration, live host probing, directory brute-force attacks, hidden endpoint extraction, and vulnerability scanning.
 
 ## Features
 
@@ -29,3 +29,31 @@ Before running the script, ensure you have the following tools installed:
    ```bash
    https://github.com/chaitanya-hack1O1/Reconn-Host.git
    cd Reconn-Host
+   ```
+Make the script executable:
+
+```
+chmod +x recon-script.sh
+
+```
+Ensure tools are installed and accessible from your path.
+Usage
+Prepare a file named domains.txt containing the list of domains you wish to analyze, with one domain per line.
+Run the script:
+
+```
+./recon-script.sh
+
+```
+The output will be saved in a directory called recon-output.
+Output Structure
+recon-output/
+subdomains.txt: List of discovered subdomains.
+live.txt: List of verified live hosts.
+ffuf/: Results of the directory brute-forcing for each live host.
+js/: Hidden endpoints extracted from JavaScript files.
+nuclei-results.txt: Results of the vulnerability scans.
+
+Contributing:
+Contributions are welcome! Please open an issue or submit a pull request for any feature requests or improvements.
+ThankYou~
