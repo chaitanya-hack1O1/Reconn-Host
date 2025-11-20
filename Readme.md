@@ -28,12 +28,12 @@ Before running the script, ensure you have the following tools installed:
 
    ```bash
    https://github.com/chaitanya-hack1O1/Reconn-Host.git
-   cd Reconn-Host
+   cd reconn-host
    ```
 Make the script executable:
 
 ```
-chmod +x recon-script.sh
+chmod +x reconn-host.sh
 
 ```
 Ensure tools are installed and accessible from your path.
@@ -42,7 +42,7 @@ Prepare a file named domains.txt containing the list of domains you wish to anal
 Run the script:
 
 ```
-./recon-script.sh
+./reconn-host.sh
 
 ```
 The output will be saved in a directory called recon-output.
